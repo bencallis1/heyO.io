@@ -1,0 +1,19 @@
+{
+  "name": "heyo.io",
+  "version": "1.0.0",
+  "description": "New studio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencallis1/heyO.io.git"
+  },
+  "author": "Ben Callis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bencallis1/heyO.io/issues"
+  },
+  "homepage": "https://github.com/bencallis1/heyO.io#readme"
+}
