@@ -1,6 +1,12 @@
 import _ from "lodash";
+import $ from "jquery";
+
+import {openOverlay} from "./app/home";
 
 
-console.log(_)
+$("#clicked").on('click', function() {
+	console.log(_)
+	openOverlay()
+})
 
 

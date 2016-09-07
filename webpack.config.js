@@ -1,5 +1,6 @@
 import webpack from "webpack";
 import pkg from "./package.json";
+
 var banner = `
 	${pkg.name} - ${pkg.description}
 	Author: ${pkg.author}
@@ -22,6 +23,12 @@ export default {
 				commonjs: "lodash",
 				commonjs2: "lodash",
 				amd: "lodash"
+			},
+			jquery: {
+				root:"$",
+				commonjs: "jquery",
+				commonjs2: "jquery",
+				amd: "jquery"
 			}
 		}
 	],
@@ -38,6 +45,8 @@ export default {
 		]
 	},
 	plugins: [
-		new webpack.BannerPlugin( banner )
+		new webpack.BannerPlugin( banner ),
+
 	]
+
 };
