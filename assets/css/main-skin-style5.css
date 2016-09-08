@@ -2268,3 +2268,19 @@ textarea {
 .company-logo {
 	width: 150px;
 }
+
+.view-project {
+	cursor: pointer;
+	width:80%;
+	margin-top: 15px;
+	display: block;
+	border: 1px solid black;
+	text-align: center;
+	padding:3px;
+}
+
+.view-project:hover {
+	background: #00d4d4;
+	color: #fff;
+	border: 1px solid #00d4d4;
+}
